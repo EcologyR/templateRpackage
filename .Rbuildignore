@@ -5,3 +5,4 @@
 ^data-raw$
 ^\.github$
 ^LICENSE\.md$
+^codecov\.yml$
