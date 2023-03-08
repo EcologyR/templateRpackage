@@ -2,7 +2,7 @@
 % Please edit documentation in R/suma.R
 \name{suma}
 \alias{suma}
-\title{Sumar valores numéricos}
+\title{Sum numeric values}
 \usage{
 suma(x = NULL, y = NULL)
 }
@@ -12,10 +12,10 @@ suma(x = NULL, y = NULL)
 \item{y}{Numeric}
 }
 \value{
-A number or numeric vector of the same length as x
+A number or numeric vector
 }
 \description{
-Esta función suma valores numéricos.
+This function sums numeric vectors
 }
 \examples{
 suma(2, 3)

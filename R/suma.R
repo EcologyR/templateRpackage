@@ -1,11 +1,11 @@
-#' Sumar valores numéricos
+#' Sum numeric values
 #'
-#' Esta función suma valores numéricos.
+#' This function sums numeric vectors
 #'
 #' @param x Numeric
 #' @param y Numeric
 #'
-#' @return A number or numeric vector of the same length as x
+#' @return A number or numeric vector
 #' @export
 #'
 #' @examples

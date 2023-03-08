@@ -2,14 +2,14 @@
 % Please edit documentation in R/resta.R
 \name{resta}
 \alias{resta}
-\title{Restar valores numéricos}
+\title{Subtract numeric values}
 \usage{
 resta(x = NULL, y = NULL, warn.negative = FALSE)
 }
 \arguments{
-\item{x}{Numeric}
+\item{x}{Numeric vector}
 
-\item{y}{Number to subtract from x}
+\item{y}{Numeric vector. Values to subtract from x}
 
 \item{warn.negative}{Logical Warn if result is negative}
 }
@@ -17,7 +17,7 @@ resta(x = NULL, y = NULL, warn.negative = FALSE)
 A number or numeric vector of the same length as x
 }
 \description{
-Esta función resta valores numéricos.
+Subtract numeric values
 }
 \examples{
 resta(2, 3)

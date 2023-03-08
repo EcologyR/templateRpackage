@@ -14,6 +14,9 @@ A data frame with 30 rows and 2 columns:
 }
 }
 }
+\source{
+dataset simulated
+}
 \usage{
 exampledata
 }

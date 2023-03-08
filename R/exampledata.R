@@ -8,4 +8,5 @@
 #'   \item{x}{Random numbers between 0 and 1}
 #'   \item{y}{Random numbers between 0 and 1}
 #' }
+#' @source dataset simulated
 "exampledata"

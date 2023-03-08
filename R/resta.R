@@ -1,9 +1,7 @@
-#' Restar valores numéricos
+#' Subtract numeric values
 #'
-#' Esta función resta valores numéricos.
-#'
-#' @param x Numeric
-#' @param y Number to subtract from x
+#' @param x Numeric vector
+#' @param y Numeric vector. Values to subtract from x
 #' @param warn.negative Logical Warn if result is negative
 #'
 #' @return A number or numeric vector of the same length as x
