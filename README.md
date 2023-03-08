@@ -19,9 +19,6 @@ The goal of templateRpackage is to …
 
 ## Installation
 
-You can install the development version of templateRpackage from
-[GitHub](https://github.com/) with:
-
 ``` r
 # install.packages("devtools")
 devtools::install_github("EcologyR/templateRpackage")
@@ -58,5 +55,40 @@ example workflow can be found here:
 
 You can also embed plots, for example:
 
+``` r
+plot(pressure)
+```
+
 In that case, don’t forget to commit and push the resulting figure
 files, so they display on GitHub and CRAN.
+
+## Citation
+
+If using this package, please cite it:
+
+``` r
+citation("templateRpackage")
+
+To cite templateRpackage in publications use:
+
+  Rodriguez-Sanchez F. 2023. templateRpackage.
+  https://ecologyr.github.io/templateRpackage/
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {templateRpackage},
+    author = {Francisco Rodriguez-Sanchez},
+    year = {2023},
+    url = {https://ecologyr.github.io/templateRpackage/},
+  }
+```
+
+## Funding
+
+The development of this software has been funded by Fondo Europeo de
+Desarrollo Regional (FEDER) and Consejería de Transformación Económica,
+Industria, Conocimiento y Universidades of Junta de Andalucía (proyecto
+US-1381388 led by Francisco Rodríguez Sánchez, Universidad de Sevilla).
+
+![](https://ecologyr.github.io/workshop/images/logos.png)

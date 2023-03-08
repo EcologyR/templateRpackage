@@ -27,8 +27,6 @@ The goal of templateRpackage is to ...
 
 ## Installation
 
-You can install the development version of templateRpackage from [GitHub](https://github.com/) with:
-
 ``` r
 # install.packages("devtools")
 devtools::install_github("EcologyR/templateRpackage")
@@ -53,8 +51,24 @@ You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-da
 
 You can also embed plots, for example:
 
-```{r pressure, echo = FALSE, eval = FALSE}
+```{r pressure, echo = TRUE, eval = FALSE}
 plot(pressure)
 ```
 
 In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+
+## Citation
+
+If using this package, please cite it:
+
+```{r comment=NA}
+citation("templateRpackage")
+```
+
+
+## Funding
+
+The development of this software has been funded by Fondo Europeo de Desarrollo Regional (FEDER) and Consejería de Transformación Económica, Industria, Conocimiento y Universidades of Junta de Andalucía (proyecto US-1381388 led by Francisco Rodríguez Sánchez, Universidad de Sevilla).
+
+![](https://ecologyr.github.io/workshop/images/logos.png)
+
