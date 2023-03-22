@@ -2,8 +2,11 @@ Package: templateRpackage
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
+  c(
     person("Francisco", "Rodriguez-Sanchez", , "f.rodriguez.sanc@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0002-7981-1599"))
+           comment = c(ORCID = "0000-0002-7981-1599")),
+    person("My", "coauthor", role = "aut")
+  )
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
