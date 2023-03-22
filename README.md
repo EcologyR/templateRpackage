@@ -24,6 +24,9 @@ The goal of templateRpackage is to …
 devtools::install_github("EcologyR/templateRpackage")
 ```
 
+The code to create this package is available
+[here](https://gist.github.com/Pakillo/999e34301c56011138ef164363502465).
+
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
